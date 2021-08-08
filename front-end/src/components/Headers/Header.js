@@ -21,10 +21,10 @@ class Header extends React.Component {
                             tag="h5"
                             className="text-uppercase text-muted mb-0"
                           >
-                            Traffic
+                            Converted Job Seeker
                           </CardTitle>
                           <span className="h2 font-weight-bold mb-0">
-                            350,897
+                            3
                           </span>
                         </div>
                         <Col className="col-auto">
@@ -51,10 +51,11 @@ class Header extends React.Component {
                             tag="h5"
                             className="text-uppercase text-muted mb-0"
                           >
-                            New users
+                            Converted Job Provider
+
                           </CardTitle>
                           <span className="h2 font-weight-bold mb-0">
-                            2,356
+                            2
                           </span>
                         </div>
                         <Col className="col-auto">
@@ -81,9 +82,9 @@ class Header extends React.Component {
                             tag="h5"
                             className="text-uppercase text-muted mb-0"
                           >
-                            Sales
+                            Not Converted Job Seeker
                           </CardTitle>
-                          <span className="h2 font-weight-bold mb-0">924</span>
+                          <span className="h2 font-weight-bold mb-0">9</span>
                         </div>
                         <Col className="col-auto">
                           <div className="icon icon-shape bg-yellow text-white rounded-circle shadow">
@@ -108,11 +109,11 @@ class Header extends React.Component {
                           <CardTitle
                             tag="h5"
                             className="text-uppercase text-muted mb-0"
-                          >
-                            Performance
+                          >   
+                          Not Converted Job Provider
                           </CardTitle>
                           <span className="h2 font-weight-bold mb-0">
-                            49,65%
+                            4
                           </span>
                         </div>
                         <Col className="col-auto">

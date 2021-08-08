@@ -1,0 +1,15 @@
+.i{
+    color: #ff9100;
+    font-style: italic;
+    text-transform: lowercase;
+    font-family: 'NucleoIcons';
+    font-weight: bolder;
+    /* font-size: 2rem; */
+    /* vertical-align: sub; */
+    margin-right: 5px;
+}
+.logo{
+    font-family: none;
+    font-weight: 600;
+    font-size: 2rem;
+}

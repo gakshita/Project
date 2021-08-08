@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../assets/css/logo.css";
 // reactstrap components
 import {
   UncontrolledCollapse,
@@ -22,8 +23,8 @@ class AdminNavbar extends React.Component {
           expand="md"
         >
           <Container className="px-4">
-            <NavbarBrand to="/" tag={Link}>
-              <PolymerIcon></PolymerIcon> LOGO
+            <NavbarBrand to="/" tag={Link}  className="logo">
+             <span className="i">I</span>BIG DATA
             </NavbarBrand>
             <button className="navbar-toggler" id="navbar-collapse-main">
               <span className="navbar-toggler-icon" />

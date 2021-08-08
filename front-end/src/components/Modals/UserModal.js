@@ -7,8 +7,8 @@ import DialogContent from "@material-ui/core/DialogContent";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import MenuItem from "@material-ui/core/MenuItem";
 
-const status = ["pending", "intrested", "not intrested"];
-export default function FormDialog({ open, setOpen, func }) {
+const status = ["User 1", "User 2", "User 31" , "User 4" , "User 6" , "User 12"];
+export default function UserDialog({ open, setOpen, func }) {
   const handleClose = () => {
     setOpen(0);
   };
@@ -24,16 +24,16 @@ export default function FormDialog({ open, setOpen, func }) {
         onClose={handleClose}
         aria-labelledby="form-dialog-title"
       >
-        <DialogTitle id="form-dialog-title">Follow Up</DialogTitle>
+        <DialogTitle id="form-dialog-title">Assign Customer</DialogTitle>
         <DialogContent>
           <TextField
             id="outlined-select-currency"
             select
-            label="Status"
+            label="Users"
             //   value={currency}
             //   onChange={handleChange}
             style={{ width: "20vw" }}
-            helperText="Please select the status"
+            helperText="Please select the user"
             variant="outlined"
           >
             {status.map((value, index) => (

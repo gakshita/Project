@@ -133,8 +133,9 @@ class Sidebar extends React.Component {
           </button>
           {/* Brand */}
           {logo ? (
-            <NavbarBrand className="pt-0" {...navbarBrandProps}>
-              <PolymerIcon></PolymerIcon> LOGO
+            <NavbarBrand className="pt-0 logo" {...navbarBrandProps}>
+                    <span className="i">I</span>BIG DATA
+
             </NavbarBrand>
           ) : null}
           {/* User */}
